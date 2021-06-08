@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-QuartzNet-3DEEC3E4-35C9-4936-AEE4-93BAFD7F0A2B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.3.2" />
+  </ItemGroup>
+</Project>
