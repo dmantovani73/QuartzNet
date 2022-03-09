@@ -12,6 +12,7 @@ namespace QuartzNet
     {
         public static void Main(string[] args)
         {
+            // Main.
             CreateHostBuilder(args).Build().Run();
         }
 
